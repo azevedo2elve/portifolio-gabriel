@@ -264,7 +264,7 @@
                         <div class="card__content bg-opacity-20 bg-[#171923] shadow-xl shadow-corLaravel p-5 mx-3 md:mx-36 lg:mx-72 xl:mx-[25rem] rounded-2xl overflow-hidden">
                             <div class="swiper-wrapper">
 
-                                {{-- Card --}}
+                                {{-- Card / Orçamento Pessoal --}}
                                 <article class="overflow-hidden rounded-2xl swiper-slide">
                                     <div class="relative bg-corLaravel pt-[1.5rem] -m-[.75rem] rounded-2xl">
                                         <img src="{{ asset('img/orcamento_pessoal.png') }}" alt="img" class="my-0 mx-auto relative z-5 rounded-2xl h-full">
@@ -287,25 +287,25 @@
                                     </div>
                                 </article>
 
-                                {{-- Card --}}
+                                {{-- Card / Maps Alert --}}
                                 <article class="overflow-hidden rounded-2xl swiper-slide">
                                     <div class="relative bg-corLaravel pt-[1.5rem] -m-[.75rem] rounded-2xl">
-                                        <img src="{{ asset('img/no_project.jpg') }}" alt="img" class="my-0 mx-auto relative z-5 rounded-2xl h-full">
+                                        <img src="{{ asset('img/maps_alert.png') }}" alt="img" class="my-0 mx-auto relative z-5 rounded-2xl h-full">
                                     </div>
 
                                     <div class="bg-[#122134] py-6 px-8 rounded-2xl text-center relative z-10">
-                                        <h3 class="text-[#2A9DD1] text-xl mb-2">{{__('No Projects')}}</h3>
-                                        <p class="font-medium text-white mb-[28px]">
-                                            Site em produção e projetos a serem adicionados.
+                                        <h3 class="text-[#2A9DD1] text-xl mb-2">{{__('Maps Alert')}}</h3>
+                                        <p class="text-xs font-medium text-white mb-[28px]">
+                                            Um projetinho básico sem muito frontend, onde pega uma URL do Waze e faz todo cálculo de latitude e logitude e pega em um raio de 5Km todos os alertas que aparecem no mesmo.
                                         </p>
 
                                         <div class="flex items-center justify-center space-x-2">
-                                            <a href="#Projects" class="text-[#6A4E21] hover:text-[#c1af93] bg-[#FAA828] py-3 px-6 rounded-md font-bold hover:bg-[#7f643d]">
+                                            <a target="_blank" href="https://github.com/azevedo2elve/maps_alert" class="text-[#6A4E21] hover:text-[#c1af93] bg-[#FAA828] py-3 px-6 rounded-md font-bold hover:bg-[#7f643d]">
                                                 <i class="fa-brands fa-github fa-xl"></i>
                                             </a>
-                                            <a href="#Projects" class="text-[#6A4E21] hover:text-[#c1af93] bg-[#FAA828] py-3 px-6 rounded-md font-bold hover:bg-[#7f643d]">
+                                            {{-- <a href="#Projects" class="text-[#6A4E21] hover:text-[#c1af93] bg-[#FAA828] py-3 px-6 rounded-md font-bold hover:bg-[#7f643d]">
                                                 <i class="fa-regular fa-window-maximize fa-xl"></i>
-                                            </a>
+                                            </a> --}}
                                         </div>
                                     </div>
                                 </article>
